@@ -1,0 +1,16 @@
+#include<stdio.h>
+main()
+{
+	srand(6);
+	int idx,r;
+	for(idx=0;idx<3;idx++)
+	{
+		r=rand()%6;
+	
+	printf("%d",r);
+	}
+	/*int dice_roll_limit
+		printf("how many times dice roll\n");
+	scanf("%d",&dice_roll_limit);*/
+}
+
